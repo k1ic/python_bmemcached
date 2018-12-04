@@ -1,6 +1,9 @@
+# -*- coding: utf-8 -*-
 import bmemcached
 import time
 import random
+
+# Tested at python27
 
 client = bmemcached.Client(('10.235.65.18:11211'), 'bmemcached', 'bmemcached')
 
